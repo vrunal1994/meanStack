@@ -1,0 +1,23 @@
+Step 1: Install an angular compiler: npm install -g @angular/compiler
+
+
+Frontend:
+Create a new application 
+    ng new applicationName (frontend)
+
+To begin running the application use:
+    ng serve --open
+
+Directory Structure:
+    node_modules contains all the required dependences for the application
+    node_modules/app holds the main application file
+    application.component.html: holds the UI page
+        use ng g c 'Component name' to create new components
+        routing is for client side request handling to URL's
+    application.module.ts: holds the controller for the webpage. Define all your routes, and dependency events here
+
+
+Verification: 
+Babel compiler is for realtime verification to changes,
+
+

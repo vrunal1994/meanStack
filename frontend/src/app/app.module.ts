@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {MatToolbarModule} from '@angular/material';
 
 import {RouterModule , Routes} from '@angular/router';
 
@@ -26,7 +27,8 @@ const routes : Routes=[
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes)  //Activating configuration for routes
+    RouterModule.forRoot(routes),  //Activating configuration for routes
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
